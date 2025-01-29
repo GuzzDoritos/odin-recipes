@@ -1,5 +1,11 @@
 /* general styling */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html {
     background-image: url(./img/background.png);
 }
@@ -8,18 +14,29 @@ body {
     width: 80%;
     background-color: orange;
     margin: auto;
+    margin-top: 10px;
+    padding-top: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #site-title {
     text-align: center;
+    width: fit-content;
+    margin: auto;
     padding: 10px;
+    border-radius: 50px;
     font-size: 2.5em;
+    background-color: brown;
 }
 
 #site-title a {
     text-decoration: none;
+    color: white;
+}
+
+#site-title a:hover, #site-title:hover {
     color: black;
+    background-color: coral;
 }
 
 #footnote {
@@ -43,6 +60,13 @@ li {
 
 /* index.html specific styling */
 
+.links-list {
+    padding: 10px;
+    margin: 10px;
+    margin-inline: 100px;
+    margin-top: 40px;
+    border: 3px solid red;
+}
 
 .link {
     list-style: none;
@@ -52,7 +76,7 @@ li {
 }
 
 a {
-    color: red;
+    color: brown;
 }
 
 /* Recipe pages styling */
