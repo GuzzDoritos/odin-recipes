@@ -1,3 +1,5 @@
+/* general styling */
+
 html {
     background-image: url(./img/background.png);
 }
@@ -15,14 +17,35 @@ body {
     font-size: 2.5em;
 }
 
-
-.links-list {
-    padding: 20px;
+#site-title a {
+    text-decoration: none;
+    color: black;
 }
+
+#footnote {
+    text-align: end;
+    font-style: italic;
+    padding-bottom: 5px;
+    padding-right: 3px;
+    font-size: 0.8em;
+    color: darkblue;
+}
+
+ul {
+    padding-bottom: 20px;
+    margin-left: 20px;
+    padding-inline-start: 20px;
+}
+
+li {
+    margin-block-end: 10px;
+}
+
+/* index.html specific styling */
+
 
 .link {
     list-style: none;
-    padding: 10px;
     font-weight: 800;
     font-size: 1.5em;
     text-transform: uppercase;
@@ -30,4 +53,27 @@ body {
 
 a {
     color: red;
+}
+
+/* Recipe pages styling */
+
+.recipe-name {
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.titles {
+    margin-left: 40px;
+    margin-block: 20px;
+}
+
+.img-container {
+    margin-left: 40px;
+}
+
+p {
+    margin-left: 40px;
+    max-width: 90%;
+    line-height: 25px;
+    text-align: justify;
 }
