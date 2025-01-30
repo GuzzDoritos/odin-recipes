@@ -93,4 +93,5 @@ p {
     max-width: 90%;
     line-height: 25px;
     text-align: justify;
+    letter-spacing: 0.01em;
 }
