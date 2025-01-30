@@ -6,14 +6,36 @@
     <title>Recipes - Homepage</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="/odin-recipes/style.css">
+    <link rel="stylesheet" href="index-style.css">
 </head>
 <body>
-    <h1 id="site-title"><a href="#">Odin Recipes</a></h1>
-    <ul class="links-list">
-        <li class="link"><a href="recipes/stroganoff/stroganoff.html">Simple Beef Stroganoff</a></li>
-        <li class="link"><a href="recipes/feijoada/feijoada.html">Feijoada</a></li>
-        <li class="link"><a href="recipes/toomuchchocolatecake/toomuchchocolatecake.html">Too Much Chocolate Cake</a></li>
-    </ul>
+    <div id="site-title-wrapper">
+        <img id="title-icon" src="img/chef-hat.svg" alt="">
+        <h1 id="site-title"><a href="#">Odin Recipes</a></h1>
+    </div>
+    <div class="main-wrapper">
+        <div class="links-list">
+            <div class="link-box">
+                <a class="recipe-link" href="recipes/stroganoff/stroganoff.html">Simple Beef Stroganoff</a>
+                <p class="link-description">
+                    This rich and creamy beef stroganoff recipe is made with ground beef and served with egg noodles. It's super ...<span class="see-more">Open recipe to see more</span>
+                </p>
+            </div>
+            <div class="link-box">
+                <a class="recipe-link" href="recipes/feijoada/feijoada.html">Feijoada</a>
+                <p class="link-description">
+                    This feijoada recipe is my version of a traditional Brazilian black bean stew that maintains the rich smoky,
+        flavors famous in ...<span class="see-more">Open recipe to see more</span>
+                </p>
+            </div>
+            <div class="link-box">
+                <a class="recipe-link" href="recipes/toomuchchocolatecake/toomuchchocolatecake.html">Too Much Chocolate Cake</a>
+                <p class="link-description">
+                    This too much chocolate cake won 1st prize at the county fair. It is very  ...<span class="see-more">Open recipe to see more</span>
+                </p>
+            </div>
+        </div>
+    </div>
     <div id="footnote">Made by Guzz. This website is a WIP, so it'll get better as I advance through The Odin Project... probably</div>
 </body>
 </html>

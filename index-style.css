@@ -1,0 +1,47 @@
+.links-list {
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5px;
+}
+
+.link-box {
+    display: flex;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    flex-direction: column;
+    border: solid 3px brown;
+    border-radius: 5px;
+}
+
+.recipe-link {
+    text-align: center;
+    text-decoration: none;
+    color: brown;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 18px;
+    min-height: 40%;
+    align-content: center;
+    background-color:darkorange;
+}
+
+.link-description {
+    margin: 10px;
+    max-width: fit-content;
+    line-height: 14px;
+    font-size: 14px;
+    font-style: italic;
+    color:black;
+}
+
+.recipe-link:hover {
+    text-decoration-line: underline;
+}
+
+.see-more {
+    font-style: normal;
+    color: darkblue;
+}

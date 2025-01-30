@@ -19,14 +19,22 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+#site-title-wrapper {
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+}
+
+#title-icon {
+    width: 65px;
+    height: 65px;
+}
+
 #site-title {
-    text-align: center;
-    width: fit-content;
-    margin: auto;
     padding: 10px;
+    align-self: center;
     border-radius: 50px;
     font-size: 2.5em;
-    background-color: brown;
 }
 
 #site-title a {
@@ -34,7 +42,7 @@ body {
     color: white;
 }
 
-#site-title a:hover, #site-title:hover {
+#site-title a:hover, #site-title-wrapper:hover {
     color: black;
     background-color: coral;
 }
@@ -58,25 +66,10 @@ li {
     margin-block-end: 10px;
 }
 
-/* index.html specific styling */
-
-.links-list {
-    padding: 10px;
-    margin: 10px;
-    margin-inline: 100px;
-    margin-top: 40px;
-    border: 3px solid red;
-}
-
-.link {
-    list-style: none;
-    font-weight: 800;
-    font-size: 1.5em;
-    text-transform: uppercase;
-}
-
-a {
-    color: brown;
+.main-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 /* Recipe pages styling */
