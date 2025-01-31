@@ -82,10 +82,18 @@ li {
 .titles {
     margin-left: 40px;
     margin-block: 20px;
+    text-transform: uppercase;
+    color: brown;
 }
 
 .img-container {
-    margin-left: 40px;
+    display: block;
+    width: fit-content;
+    margin: auto;
+}
+
+.img-container > img {
+    border-radius: 10px;
 }
 
 p {
