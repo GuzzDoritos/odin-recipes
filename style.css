@@ -23,6 +23,7 @@ body {
     display: flex;
     justify-content: center;
     background-color: brown;
+    transition: all 0.2s;
 }
 
 #title-icon {
@@ -35,11 +36,13 @@ body {
     align-self: center;
     border-radius: 50px;
     font-size: 2.5em;
+    transition: all 0.2s;
 }
 
 #site-title a {
     text-decoration: none;
     color: white;
+    transition: all 0.2s;
 }
 
 #site-title a:hover, #site-title-wrapper:hover {
@@ -96,10 +99,10 @@ li {
     border-radius: 10px;
 }
 
-p {
+ p {
     margin-left: 40px;
     max-width: 90%;
     line-height: 25px;
     text-align: justify;
     letter-spacing: 0.01em;
-}
+} 

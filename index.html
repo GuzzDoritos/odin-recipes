@@ -7,35 +7,60 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="/odin-recipes/style.css">
     <link rel="stylesheet" href="index-style.css">
+    <link rel="stylesheet" href="card.css">
 </head>
 <body>
     <div id="site-title-wrapper">
         <img id="title-icon" src="img/chef-hat.svg" alt="">
         <h1 id="site-title"><a href="#">Odin Recipes</a></h1>
     </div>
-    <div class="main-wrapper">
-        <div class="links-list">
-            <div class="link-box">
-                <a class="recipe-link" href="recipes/stroganoff/stroganoff.html">Simple Beef Stroganoff</a>
-                <p class="link-description">
-                    This rich and creamy beef stroganoff recipe is made with ground beef and served with egg noodles. It's super ...<span class="see-more">Open recipe to see more</span>
-                </p>
-            </div>
-            <div class="link-box">
-                <a class="recipe-link" href="recipes/feijoada/feijoada.html">Feijoada</a>
-                <p class="link-description">
-                    This feijoada recipe is my version of a traditional Brazilian black bean stew that maintains the rich smoky,
-        flavors famous in ...<span class="see-more">Open recipe to see more</span>
-                </p>
-            </div>
-            <div class="link-box">
-                <a class="recipe-link" href="recipes/toomuchchocolatecake/toomuchchocolatecake.html">Too Much Chocolate Cake</a>
-                <p class="link-description">
-                    This too much chocolate cake won 1st prize at the county fair. It is very  ...<span class="see-more">Open recipe to see more</span>
-                </p>
-            </div>
+
+    <div class="card">
+        <div class="card-image">
+            <img src="/recipes/feijoada/feijoada.jpg" alt="">
         </div>
+        <div class="card-text">  
+            <div class="card-title">
+                <h1>FEIJOADA</h1>
+            </div>
+            <div class="card-description">
+                This feijoada recipe is my version of a traditional Brazilian black bean stew that maintains the rich smoky,
+                flavors famous in ...
+            </div>          
+        </div>
+        <a href="recipes/feijoada/feijoada.html"><span class="test"></span></a>
     </div>
+
+    <div class="card">
+        <div class="card-image">
+            <img src="/recipes/stroganoff/stroganoff.jpg" alt="">
+        </div>
+        <div class="card-text">  
+            <div class="card-title">
+                <h1>Simple Beef Stroganoff</h1>
+            </div>
+            <div class="card-description">
+                This rich and creamy beef stroganoff recipe is made with ground beef and served with egg noodles. It's super ...
+            </div>          
+        </div>
+        <a href="recipes/stroganoff/stroganoff.html"><span class="test"></span></a>
+    </div>
+
+    <div class="card">
+        <div class="card-image">
+            <img src="/recipes/toomuchchocolatecake/Cake.jpg" alt="">
+        </div>
+        <div class="card-text">  
+            <div class="card-title">
+                <h1>Too Much Chocolate Cake</h1>
+            </div>
+            <div class="card-description">
+                This too much chocolate cake won 1st prize at the county fair. It is very  ...
+            </div>          
+        </div>
+        <a href="recipes/toomuchchocolatecake/toomuchchocolatecake.html"><span class="test"></span></a>
+    </div>
+
     <div id="footnote">Made by Guzz. This website is a WIP, so it'll get better as I advance through The Odin Project... probably</div>
 </body>
 </html>
