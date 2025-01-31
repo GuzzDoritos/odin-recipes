@@ -35,11 +35,11 @@
     margin: 20px;
     position: relative;
     flex-wrap: wrap;
+    max-width: 800px;
 }
 
 .card-text {
     background-color: bisque;
-    max-width: 500px;
     flex: 1;
 }
 
