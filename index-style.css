@@ -23,7 +23,7 @@
     text-transform: uppercase;
     font-weight: 900;
     font-size: 18px;
-    height: 40px;
+    min-height: 40px;
     align-content: center;
     background-color:darkorange;
 }
