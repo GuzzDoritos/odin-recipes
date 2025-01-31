@@ -9,8 +9,8 @@
 .link-box {
     display: flex;
     margin: 10px;
-    width: 200px;
-    height: 200px;
+    padding-bottom: 10px;
+    max-width: 200px;
     flex-direction: column;
     border: solid 3px brown;
     border-radius: 5px;
@@ -23,14 +23,13 @@
     text-transform: uppercase;
     font-weight: 900;
     font-size: 18px;
-    min-height: 40%;
+    height: 40px;
     align-content: center;
     background-color:darkorange;
 }
 
 .link-description {
     margin: 10px;
-    max-width: fit-content;
     line-height: 1em;
     font-size: 0.9em;
     font-style: italic;
