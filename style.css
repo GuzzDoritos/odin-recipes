@@ -69,12 +69,6 @@ li {
     margin-block-end: 10px;
 }
 
-.main-wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
 /* Recipe pages styling */
 
 .recipe-name {
