@@ -11,9 +11,10 @@ html {
 }
 
 body {
-    width: 80%;
+    max-width: 800px;
     background-color: orange;
     margin: auto;
+    margin-left: 50px;
     margin-top: 10px;
     padding-top: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
